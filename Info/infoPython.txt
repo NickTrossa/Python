@@ -1,0 +1,33 @@
+Python...
+
+Tutoriales:
+	http://www.codecademy.com/?locale_code=es
+
+	http://learnpython.org/						(Online)
+
+Herramientas para Labo 5:
+	https://github.com/sadeus/labosdf/tree/master/software
+
+Editor online para compartir:
+	https://colaboratory.jupyter.org/welcome/
+
+Plataformas:
+	Anaconda
+	Spyder	(onda Matlab)
+
+Update Anaconda:
+	conda update conda
+	conda update anaconda
+http://www.scipy.org/install.html
+http://matplotlib.org/
+http://www.numpy.org/
+
+Librería posible: Pandas	-para análisis de datos y modelado.
+
+Instalar Anaconda:
+	http://continuum.io/downloads#py34
+El spyder debería estar listo para andar: ~$ spyder
+sino:
+	https://pypi.python.org/pypi/spyder/2.3.3
+
+
