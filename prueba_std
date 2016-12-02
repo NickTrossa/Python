@@ -1,0 +1,15 @@
+
+import numpy as np
+
+def std(a):
+    b = 0
+    p = np.mean(a)
+    for x in a:
+        b += (x-p)**2
+    return np.sqrt(b/len(a))
+
+v = [2 , 9 ,9,9,9]
+w = [9,2,2,2,2]
+
+print(std(v))
+print(std(w))
