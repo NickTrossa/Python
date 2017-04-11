@@ -27,7 +27,7 @@ def ajustelineal(x,y,errores):
     slope = theta[1]
     intercept = theta[0]
     
-    # Coeficiente R2
+    # Coeficiente de determinación R2
     fit = theta[0]+theta[1]*x
     r2 = 1 - sum((y-fit)**2)/sum((y-np.mean(y))**2)
     # Coeficiente Chi2

@@ -36,12 +36,12 @@ notas = {
 "Estrucura 2": False,
 "Estrucura 3": False,
 "Estrucura 4": False,
-"Física Teórica I": False,
+"Física Teórica I": 10,
 "Física Teórica II": False,
 "Física Teórica III": False,
 "Cálculo Numérico": 10,
 "Labo de Electrónica": 10,
-"Optativa 2": False,
+"Teori de errores e incertezas": 10,
 "Optativa 3": False
 }
 

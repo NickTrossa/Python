@@ -36,18 +36,18 @@ notas = {
 "Estrucura 2": False,
 "Estrucura 3": False,
 "Estrucura 4": False,
-"Física Teórica I": False,
-"Física Teórica II": False,
+"Física Teórica I": 10,
+"Física Teórica II": 9,
 "Física Teórica III": False,
 "Cálculo Numérico": 10,
 "Labo de Electrónica": 10,
-"Optativa 2": False,
+"Incertezas experimentales": 10,
 "Optativa 3": False
 }
 
 #concbc = 0
 #while not isinstance(concbc,bool):
-concbcstring = raw_input("¿Contamos el CBC? [s/N]: ")
+concbcstring = input("¿Contamos el CBC? [s/N]: ")
 concbc = (concbcstring.lower() == 's')
 
 if concbc: notas.update(notascbc)
@@ -64,5 +64,5 @@ promedio = suma/materiasrendidas
 total_materias = len(notas)
 porcentaje = 100.0*materiasrendidas/total_materias
 
-print "Has finalizado %s materias con un promedio de %s." %(materiasrendidas, '%.2f' % promedio)
-print "Eso es un %%%s de la carrera." %( '%.0f' % porcentaje)
+print("Has finalizado %s materias con un promedio de %s." %(materiasrendidas, '%.2f' % promedio))
+print("Eso es un %%%s de la carrera." %( '%.0f' % porcentaje))

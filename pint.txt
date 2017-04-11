@@ -1,0 +1,3 @@
+>>> import pint
+>>> ureg = pint.UnitRegistry()
+(1*ureg.inch).to(ureg.centimiter)
